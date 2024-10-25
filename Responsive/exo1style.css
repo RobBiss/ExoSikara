@@ -1,0 +1,79 @@
+body{
+    margin:0;
+    background-color: bisque;
+}
+header{
+    background-color: red;
+    text-align: center;
+    padding: 1%;
+    position: relative;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    width: 97%;
+    padding: 1%;
+    display: inline-block;
+    background-color: darkred;
+}
+article{
+    background-color: lightskyblue;
+}
+aside{
+    padding: 1%;
+}
+.aside1{
+    background-color: yellow;
+}
+.aside2{
+    background-color: purple;
+}
+p{
+    margin: 1%;
+    background-color: lightseagreen;
+}
+footer{
+    padding: 1%;
+    background-color: lightgreen;
+}
+@media screen and (min-width: 900px) {
+    li{
+        width: 10%;
+    }
+    .middle{
+        display: inline-block;
+        position: relative;
+        padding: 1%;
+    }
+    aside{
+        position:absolute;
+        padding: 0;
+        width: 15%;
+        height: 100%;
+    }
+    .aside1{
+        top: 0;
+        left: 0;
+    }
+    .aside2{
+        right: 0;
+        top: 0;
+    }
+    .lorems{
+        padding: 1% 16%;
+    }
+}
+@media screen and (min-width: 1200px) {
+    ul{
+        margin: 0 10%;
+    }
+    li{
+        width: 22%;
+    }
+    p{
+        display: inline-block;
+        width: 30%;
+    }
+}
