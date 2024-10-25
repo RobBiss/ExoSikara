@@ -1,0 +1,16 @@
+main{
+    text-align: center
+}
+header{
+    display: none;
+}
+section{
+    margin-bottom: 3%;
+    width: 100%;
+}
+footer{
+    display: none;
+}
+@media screen and (min-width: 600px) {
+        
+}
