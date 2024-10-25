@@ -1,0 +1,65 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: red;
+}
+nav{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+ul{
+    display: flex;
+    width: inherit;
+    list-style-type: none;
+    padding-left: 0;
+}
+li{
+    display: flex;
+    justify-content: space-around;
+    width: inherit;
+     border: 1px solid black;
+}
+section{
+    display: flex;
+    width:inherit;
+}
+.textzone{
+    width: 50%;
+}
+aside{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+.inwrap{
+    flex-flow: column wrap;
+}
+.col{
+    flex-direction: row;
+
+}
+.azure{
+    background-color: lightblue;
+}
+.jaune{
+    background-color: yellow;
+}
+.purple{
+    background-color: plum;
+}
+.green{
+    background-color: green;
+}

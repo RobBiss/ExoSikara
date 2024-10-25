@@ -1,0 +1,143 @@
+.w1{
+    grid-area: w1;
+}
+.w2{
+    grid-area: w2;
+}
+.w3{
+    grid-area: w3;
+}
+.w4{
+    grid-area: w4;
+}
+.w5{
+    grid-area: w5;
+}
+.w6{
+    grid-area: w6;
+}
+.w7{
+    grid-area: w7;
+}
+.w8{
+    grid-area: w8;
+}
+.w9{
+    grid-area: w9;
+}
+.w10{
+    grid-area: w10;
+}
+.w11{
+    grid-area: w11;
+}
+.w12{
+    grid-area: w12;
+}
+.w13{
+    grid-area: w13;
+}
+.w14{
+    grid-area: w14;
+}
+.w15{
+    grid-area: w15;
+}
+.w16{
+    grid-area: w16;
+}
+.y1{
+    grid-area: y1;
+}
+.y2{
+    grid-area: y2;
+}
+.y3{
+    grid-area: y3;
+}
+.y4{
+    grid-area: y4;
+}
+.y5{
+    grid-area: y5;
+}
+.r1{
+    grid-area: r1;
+}
+.r2{
+    grid-area: r2;
+}
+.r3{
+    grid-area: r3;
+}
+.r4{
+    grid-area: r4;
+}
+.r5{
+    grid-area: r5;
+}
+.b1{
+    grid-area: b1;
+}
+.b2{
+    grid-area: b2;
+}
+.b3{
+    grid-area: b3;
+}
+.b4{
+    grid-area: b4;
+}
+.n1{
+    grid-area: n1;
+}
+.n2{
+    grid-area: n2;
+}
+.n3{
+    grid-area: n3;
+}
+.n4{
+    grid-area: n4;
+}
+.grid-container{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    grid-template-areas: 
+    'w1 w2 w2 w2 w2 w2 w2 w2 w2 w3 w3 w3 w3 w3 w3 w3 w3 w4 y1'
+    'w1 b1 b1 b1 b1 b1 b1 b1 b1 w5 w5 w5 b2 b2 b2 b2 b2 w4 y1'
+    'w1 b1 b1 b1 b1 b1 b1 b1 b1 w5 w5 w5 b2 b2 b2 b2 b2 w4 y1'
+    'n1 w6 w6 n2 w7 w7 w7 w8 y2 y2 y2 y2 r1 r1 r1 r1 r2 w4 y1'
+    'n1 w6 w6 n2 w7 w7 w7 w8 y2 y2 y2 y2 r1 r1 r1 r1 r2 w4 y1'
+    'n1 w6 w6 n2 w7 w7 w7 w8 y2 y2 y2 y2 r1 r1 r1 r1 r2 w4 y1'
+    'n1 w6 w6 n2 w7 w7 w7 w8 y2 y2 y2 y2 r1 r1 r1 r1 r2 w4 y1'
+    'n1 w6 w6 n2 y3 r3 r3 r3 b3 b3 b3 w9 w9 w9 w9 w10 n3 n3 n3'
+    'n1 w6 w6 n2 y3 r3 r3 r3 b3 b3 b3 w9 w9 w9 w9 w10 n3 n3 n3'
+    'w11 r4 r4 n2 y4 w12 w12 w12 w12 w12 w12 w13 w13 w13 b4 b4 y5 w14 w14'
+    'w11 r4 r4 n2 y4 w12 w12 w12 w12 w12 w12 w13 w13 w13 b4 b4 y5 w14 w14'
+    'w11 r4 r4 n2 y4 w12 w12 w12 w12 w12 w12 w13 w13 w13 b4 b4 y5 w14 w14'
+    'w11 r4 r4 n2 y4 r5 r5 n4 n4 n4 n4 n4 n4 n4 w15 w15 w15 w15 w15'
+    'w16 w16 w16 w16 y4 r5 r5 n4 n4 n4 n4 n4 n4 n4 w15 w15 w15 w15 w15';
+    grid-gap: 10px;
+    padding: 10px;
+}
+.grid-container > div {
+    padding: 20px 0;
+}
+.white{
+    background-color: white;
+}
+.yellow{
+    background-color: yellow;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: darkblue;
+}
+.noir{
+    background-color: black;
+}
