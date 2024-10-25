@@ -1,0 +1,78 @@
+body{
+    width: 100%;
+    height: 600px;
+}
+.carré{
+    display: none;
+}
+@media screen and (min-width: 600px) {
+    body{
+        animation-name: Forward;
+        animation-duration: 3s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+    .gif{
+        display: none;
+    }
+    .carré{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 10px;
+        height: 10px;
+        background-color: black;
+    }
+}
+ @media screen and (min-width: 1200px) {
+    body{
+        animation-name: Zig;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+    }
+ }
+    @keyframes Forward {
+        0%{
+            transform: translateX(0%);
+        }
+        100%{
+            transform: translateX(100%);
+        }
+    }
+    @keyframes Zig {
+        0%{
+            transform: translateX(0%);
+        }
+        10%{
+            transform: translateY(100%);
+        }
+        20%{
+            transform: translate(25%, 100%);
+        }      
+        30%{
+            transform: translate(25%, 0%);
+        }
+        40%{
+            transform: translate(50%, 0%);
+        }
+        50%{
+            transform: translate(50%, 100%);
+        }
+        60%{
+            transform: translate(75%, 100%);
+        }
+        70%{
+            transform: translate(75%, 0%);
+        }
+        80%{
+            transform: translate(90%, 0%);
+        }
+        90%{
+            transform: translate(90%, 90%);
+        }
+        100%{
+            transform: translate(100%, 90%);
+        }
+    }
