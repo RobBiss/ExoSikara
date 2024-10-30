@@ -1,0 +1,64 @@
+body{
+    font-family: sans-serif;
+}
+h1{
+    color: rgb(40, 40, 40);
+    font-weight: normal;
+}
+.Temp1{
+    font-size: 50px;
+    position: relative;
+}
+.Temp2{
+    font-size: 25px;
+    position: absolute;
+    top:0 ;
+}
+.jour{
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+}
+.demi{
+    width: 45%;
+    margin-left: 2%;
+    display: inline-block;
+    text-align: left;
+}
+.ligne{
+    display: inline-block;
+    width: 100%;
+}
+.quart{
+    width: 21%;
+    margin-left: 2%;
+    text-align: center;
+}
+.Text{
+    color: rgb(135, 135, 135);
+}
+.Text2{
+    color:rgb(96, 96, 96);
+}
+
+@media screen and (min-width: 1000px) {
+    main{
+        border: solid gray;        
+    }
+    .entete{
+        margin-left: 2%;
+    }
+    .semaine{
+        width: 12%;
+        margin-left: 1.8%;
+    }
+    .semaine .quart{
+        width: 100%;
+    }
+    .Text2 br{
+        display: none;
+    }
+    hr{
+        display: none;
+    }
+}
