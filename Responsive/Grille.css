@@ -44,6 +44,12 @@ main{
 .col-xs-12{
     width: calc(1200%/12);
 }
+.button{
+    width: 20%;
+    padding: 1%;
+    border: solid black;
+    border-radius: 1%;
+}
 @media screen and (min-width: 700px) {
     .col-sm-1{
         width: calc(100%/12);
